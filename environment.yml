@@ -1,0 +1,13 @@
+name: ipcc_ch6f14
+channels:
+  - conda-forge
+  - anaconda
+
+dependencies:
+  - python=3.6
+  - pandas
+  - iris
+  - matplotlib
+  - numpy
+  - cartopy
+
