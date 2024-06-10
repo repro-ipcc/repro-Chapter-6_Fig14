@@ -28,8 +28,19 @@ Install the conda environment:
 bash install.sh
 ```
 
-## Issue
+To re-create the figure of Chapter 6 Figure 14:
+
+```sh
+bash run.sh
+```
+
+The figure is left in IPCC_AR6_WGI_Figure_6_14.pdf
+
+
+## Issues
 
 ### 2024-06-10
-Some data file named "regridTo1x1_Template.nc" is missing
+
+The legend at the bottom is slightly different, but it's almost the same.
+
 

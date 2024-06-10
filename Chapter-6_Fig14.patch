@@ -1,0 +1,25 @@
+diff --git a/CMIP6_global_2D_ann_O3_resp_at_diff_temp_thresholds.py b/CMIP6_global_2D_ann_O3_resp_at_diff_temp_thresholds.py
+index b53066f..191599d 100644
+--- a/CMIP6_global_2D_ann_O3_resp_at_diff_temp_thresholds.py
++++ b/CMIP6_global_2D_ann_O3_resp_at_diff_temp_thresholds.py
+@@ -15,9 +15,9 @@ import matplotlib.colors as colors  #colors
+ import cartopy.crs as ccrs         #cartopy  
+ 
+ UKESM_DIR   = '/data/users/sturnock/UKESM_cmip6/ensemble_mean/'
+-CMIP6_DIR   = '/data/users/sturnock/CMIP6_model_output/processed_ESGF/ensemble_mean/'
++CMIP6_DIR   = '../dap.ceda.ac.uk/badc/ar6_wg1/data/ch_06/inputdata_ch6_fig14/v20220930/'
+ 
+-PLOT_DIR    = '/net/home/h06/sturnock/Python/UKESM_cmip6/Images_multi_mods/IPCC_figs/'#o3_revised/'#no2/'
++PLOT_DIR    = '../'#o3_revised/'#no2/'
+ FUT_SCEN    = 'ssp370SST'#-lowNTCF'#'historical'#'ssp370'#['SSP1_26','SSP2_45','SSP3_70','SSP5_85']
+ FUT_SCEN_2  = 'ssp370pdSST'#emis'
+ 
+@@ -43,7 +43,7 @@ EN_YR_FILE  = '2099'#'1850'#'2100'
+ NROWS       = 2#len(THRES_PLOT)+1
+ 
+ # USE HTAP2 Receptor Regions to create 1x1 array to store multi-model data
+-REG_DIR_PATH = '/data/users/sturnock/HTAP_files/HTAP_regions/v2/'
++REG_DIR_PATH = '../'
+ REG_FNAME = 'regridTo1x1_Template.nc'
+ 
+ # Manually change default hatching properties within MPL
