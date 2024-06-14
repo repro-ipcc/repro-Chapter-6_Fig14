@@ -1,6 +1,8 @@
 # ipcc-ar6-wg1-figure Chapter 6 Figure 14
 
-
+| Input | Running | Output | Quality | Post-process |
+|-------|---------|--------|---------|--------------|
+| ![Code](https://img.shields.io/badge/Code-Complete-green) <br> ![Dependence](https://img.shields.io/badge/Dependence-Complete-green) <br> ![Data](https://img.shields.io/badge/Data-Complete-green) | ![Running](https://img.shields.io/badge/Running-green) | ![Full](https://img.shields.io/badge/4/4-Full-green) | ![Same](https://img.shields.io/badge/4/4-Same-green) | ![Auto](https://img.shields.io/badge/Auto-orange) ![Manual](https://img.shields.io/badge/Manual-orange) |
 
 Project to re-create the IPCC AR6 WG1 figures. See https://ipcc.ch and https://github.com/IPCC-WG1
 
